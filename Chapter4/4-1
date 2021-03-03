@@ -1,0 +1,32 @@
+#include<bitset>
+#include<iostream>
+#include<string>
+using std::cin;
+using std::cout;
+using std::string;
+using std::bitset;
+using std::endl;
+
+int main()
+{
+	const unsigned array_size = 3;
+	int ia[array_size] = {1, 2, 3};
+
+	const unsigned array_size1 = 5;
+	int ia1[array_size1] = {0, 1, 2};
+	string str_arr[array_size1] = {"hi", "bye"}; //equivalent to str_arr = {"hi", "bye", "", "", ""}
+
+	char ca1[] = {'C', '+', '+'};
+	char ca2[] = "C++";
+
+    const size_t array_size2 = 10;
+    int ia2[array_size2];
+    for(size_t ix = 0; ix != array_size2; ++ix)
+    	ia2[ix] = ix;
+    for(size_t ix = 0; ix != array_size2; ++ix)
+    	cout << ia2[ix] << endl;
+
+    return 0;
+
+
+}
